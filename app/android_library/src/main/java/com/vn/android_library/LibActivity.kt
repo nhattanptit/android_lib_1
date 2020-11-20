@@ -11,9 +11,9 @@ class LibActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         setSupportActionBar(findViewById(R.id.toolbar))
-        val floatingActionButton = findViewById<TextView>(R.id.fab)
-        floatingActionButton.setOnClickListener {
-            Toast.makeText(this, "LOG", Toast.LENGTH_LONG)
-        }
+//        val floatingActionButton = findViewById<TextView>(R.id.fab)
+//        floatingActionButton.setOnClickListener {
+//            Toast.makeText(this, "LOG", Toast.LENGTH_LONG)
+//        }
     }
 }
